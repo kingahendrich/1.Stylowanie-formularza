@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+}
+
+form {
+    background-color: #213b50;
+    color: white;
+    padding: 20px 20px;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    background-color: #213b50;
+    color: white;
+    width: 50%;
+    background-color: #2b4a64;
+    border: none;
+    padding: 2px;
+    margin: 3px 0 8px 0;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    display: inline;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: #4e708c;
+    border: 1px solid #ffffff;
+}
+
+input[type="submit"] {
+    background-color: #1ac056;
+    padding: 7px 10px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    width: auto;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    background-color: #46e881;
+}
+
+#message-label {
+    display: block;
+    margin-top: 8px;
+}
